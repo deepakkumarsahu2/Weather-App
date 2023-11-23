@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+   
+
+
+   background: rgb(89,92,127);
+background: linear-gradient(90deg, rgba(89,92,127,1) 0%, rgba(80,213,208,1) 100%);
+}
+
+
+
+
+

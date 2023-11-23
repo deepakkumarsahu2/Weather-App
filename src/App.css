@@ -1,0 +1,81 @@
+
+:root{
+  --color:rgba(0,0,0,0.2);
+
+}
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.child-container{
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: var(--color);
+   
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 20px;
+    
+}
+.input-field input{
+    border: transparent;
+    outline: none;
+    border-radius: 9px;
+    padding: 6px;
+    width: 205px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.first-temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.temp-icon{
+    width: 90px;
+    height: 90px;
+}
+.temp-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-temp{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 77px;
+    row-gap: 28px;
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+  
+}
+small{
+    font-size: 17px;
+    font-weight: 700;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+footer{
+    text-align: center;
+}
