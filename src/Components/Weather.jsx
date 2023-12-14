@@ -30,13 +30,10 @@ export default function Weather() {
     <>
       <div className="container">
         {weather && (
-
-          
           <>
-         
             <div className="child-container">
               {/* FIRST SECTION */}
-             
+
               <div className="input-field">
                 <input
                   type="text"
@@ -45,7 +42,6 @@ export default function Weather() {
                   onKeyDown={enterPress}
                   placeholder="Search...... & Press Enter"
                 />
-               
               </div>
 
               {/* SECOND SECTION  */}
